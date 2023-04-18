@@ -1,0 +1,275 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: monospace;
+  background-image: url(./img/sit\ portada.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: initial;
+}
+.encabezado {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.encabezado h1 {
+  font-size: 35px;
+}
+.encabezado a {
+  color: white;
+  font-size: 20px;
+  padding-right: 30px;
+  text-decoration: none;
+}
+
+.logo {
+  width: 8%;
+  padding: 10px 0 10px 25px;
+}
+
+.titulo1 {
+  color: white;
+  background-color: rgba(106, 87, 87, 0.542);
+  padding: 8px;
+  font-size: 18px;
+  text-align: center;
+}
+
+/* Main portadas */
+.imgPort {
+  width: 250px;
+  padding: 10px;
+}
+.portadas {
+  background-color: rgba(0, 0, 0, 0.695);
+  /* width: auto; */
+  /* height: 100%; */
+  padding: 10px;
+  /* justify-content:space-between; */
+  text-align: center;
+  align-items: center;
+}
+.portadas a {
+  color: white;
+  /* width:100px; */
+  /* height: auto; */
+  background-color: rgba(127, 127, 127, 0.284);
+  font-size: 17px;
+  text-decoration: none;
+  text-align: center;
+  justify-content: center;
+  display: block;
+  /* padding-left: 60px; */
+}
+
+.portadas p {
+  color: white;
+  text-align: center;
+  justify-content: center;
+}
+
+.piePagina {
+  background-color: rgba(255, 255, 255, 0.242);
+
+  height: auto;
+  text-align: center;
+  padding: 8px;
+}
+
+.footer {
+  color: white;
+  font-size: 13px;
+}
+
+.foto {
+  padding: 15px;
+  text-align: center;
+  display:flex ;
+  justify-content: center;
+  align-items: center;
+}
+
+.foto:hover {
+  transition: 1.5s;
+  transform: rotate(360deg);
+}
+
+.descripcion p {
+  background-color: rgb(0, 0, 0);
+  font-size: 15px;
+  padding: 40px;
+  color: white;
+  font-style: italic;
+  text-align: justify;
+}
+.libreria {
+  display: block;
+  background-color: rgba(0, 0, 255, 0.155);
+  width: auto;
+  height: auto;
+  /* margin:auto; */
+  padding: 10px;
+  text-align: center;
+}
+.libreria a {
+  color: aliceblue;
+  text-decoration: none;
+  background-color: rgb(104, 15, 15);
+  padding: 15px;
+  border-radius: 8px;
+}
+.lib1 {
+  width: 200px;
+  height: 200px;
+  margin: 15px;
+
+  align-items: center;
+}
+.libreria p {
+  color: aliceblue;
+  background-color: rgb(8, 8, 8);
+  padding: 15px;
+  width: 500px;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  margin-top: 15px;
+  border-radius: 8px;
+}
+
+.hablemos {
+  width: 400px;
+  padding: 25px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.701);
+  margin: auto;
+  margin-top: 100px;
+  text-align: center;
+  border-radius: 4px;
+}
+.text {
+  width: 300px;
+  height: 25px;
+  border-color: blue;
+  border-radius: 5px;
+}
+.text1 {
+  width: 300px;
+  height: 300px;
+  border-color: blue;
+  border-radius: 5px;
+}
+.hablemos p {
+  padding: 10px;
+  font-size: 17px;
+}
+.enviar1 {
+  width: 150px;
+  padding: 5px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  border: 1px solid red;
+}
+.enviar1 {
+  background: red;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 15px 0;
+  font: 16px;
+  cursor: pointer;
+}
+
+.registro {
+  color: white;
+  width: 400px;
+  background-color: rgba(2, 2, 2, 0.729);
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border-radius: 4px;
+}
+.registro h4 {
+  font-size: 20px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+.control {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 12px;
+  border: 1px solid blue;
+}
+.registro p {
+  height: 40px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.registro a:hover {
+  color: rgb(255, 1, 1);
+  text-decoration: underline;
+}
+.registro .boton {
+  width: 100%;
+  background: red;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 15px 0;
+  font: 16px;
+  cursor: pointer;
+}
+.registro1 {
+  color: rgb(255, 255, 255);
+  width: 400px;
+  background-color: rgba(0, 0, 0, 0.649);
+  padding: 30px 70px 30px 50px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+}
+.registro1 h4 {
+  font-size: 20px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+.control1 {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 12px;
+  border: 1px solid blue;
+}
+.registro1 p {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.registro1 .boton1 {
+  width: 100%;
+  background: red;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 15px 0;
+  font: 16px;
+  cursor: pointer;
+}
+.inicio1 {
+  width: 100%;
+  background-color: rgb(8, 8, 8);
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+}
