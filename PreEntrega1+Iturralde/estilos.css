@@ -7,20 +7,20 @@
 body {
   font-family: monospace;
   background-image: url(./img/sit\ portada.jpg);
-  background-size: cover;
-  background-attachment: fixed;
+  background-size:cover;
+  background-attachment:fixed;
   background-repeat: initial;
 }
 .encabezado {
   background-color: rgb(0, 0, 0);
   color: white;
   display: flex;
-  justify-content: space-between;
+  justify-content:space-around;
   align-items: center;
 }
 
 .encabezado h1 {
-  font-size: 35px;
+  font-size: 40px;
 }
 .encabezado a {
   color: white;
@@ -30,8 +30,11 @@ body {
 }
 
 .logo {
-  width: 8%;
+  display: flex;
+  align-items: center;
+  width: 90px;
   padding: 10px 0 10px 25px;
+
 }
 
 .titulo1 {
@@ -52,7 +55,8 @@ body {
   /* width: auto; */
   /* height: 100%; */
   padding: 10px;
-  /* justify-content:space-between; */
+  display: flexbox;
+  justify-content:space-between;
   text-align: center;
   align-items: center;
 }
@@ -63,13 +67,15 @@ body {
   background-color: rgba(127, 127, 127, 0.284);
   font-size: 17px;
   text-decoration: none;
+  display: flex;
   text-align: center;
   justify-content: center;
-  display: block;
+  
   /* padding-left: 60px; */
 }
 
 .portadas p {
+  padding: 10px;
   color: white;
   text-align: center;
   justify-content: center;
@@ -110,7 +116,7 @@ body {
   text-align: justify;
 }
 .libreria {
-  display: block;
+  display: flexbox;
   background-color: rgba(0, 0, 255, 0.155);
   width: auto;
   height: auto;
@@ -272,4 +278,47 @@ body {
   color: white;
   font-size: 15px;
   text-decoration: none;
+}
+
+@media (max-width:1200px){
+  .encabezado h1{
+    font-size: 40px;
+  } .encabezado a{
+    font-size: 20px;
+  }
+  .logo{
+    width: 90px;
+  }
+}
+@media (max-width:992px){
+  .encabezado h1{
+    font-size: 30px;
+  } .encabezado a{
+    font-size: 17px;
+  }
+  .logo{
+    width: 90px;
+  }
+}
+@media (max-width:768px){
+  .encabezado h1{
+    font-size: 20px;
+  } .encabezado a{
+    font-size: 13px;
+  }
+  .logo{
+    width: 70px;
+  }  
+  
+}
+@media (max-width:576px){
+.encabezado h1{
+  font-size: 16px;
+} .encabezado a{
+  font-size: 10px;
+}
+.logo{
+  width: 65px;
+}
+
 }
