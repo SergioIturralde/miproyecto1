@@ -52,8 +52,8 @@ body {
 }
 .portadas {
   background-color: rgba(0, 0, 0, 0.695);
-  /* width: auto; */
-  /* height: 100%; */
+  width: auto;
+  height: auto;
   padding: 10px;
   display: flexbox;
   justify-content:space-between;
@@ -93,7 +93,7 @@ body {
   color: white;
   font-size: 13px;
 }
-
+/* pagina quien soy */
 .foto {
   padding: 15px;
   text-align: center;
@@ -115,9 +115,10 @@ body {
   font-style: italic;
   text-align: justify;
 }
+/* pagina librerias */
 .libreria {
   display: flexbox;
-  background-color: rgba(0, 0, 255, 0.155);
+  background-color: rgba(10, 10, 10, 0.541);
   width: auto;
   height: auto;
   /* margin:auto; */
