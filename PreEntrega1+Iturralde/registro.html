@@ -1,62 +1,73 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link  rel="shortcut icon" href="./img/SIT LOGO blanco.png" type="image/x-icon">  
+    <link
+      rel="shortcut icon"
+      href="./img/SIT LOGO blanco.png"
+      type="image/x-icon"
+    />
     <link rel="stylesheet" href="estilos.css" />
 
     <title>SIT The Producer</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <div class="encabezado">
-          <img class="logo" src="./img/SIT LOGO blanco.png" alt="" />
-          <!-- <a href="http://www.youtube.com/sittheproducer"> <img class="imgLogo" src="./img/SIT LOGO blanco.png" width="80px" alt="" srcset=""></a> -->
-          <h1>SIT THE PRODUCER</h1>
-  
-          <nav>
+      <div class="encabezado">
+        <img class="logo" src="./img/SIT LOGO blanco.png" alt="" />
+        <h1>SIT THE PRODUCER</h1>
+
+        <nav>
+          <a href="./index.html">INICIO</a>
             <a href="./quiensoy.html">¿Quien Soy?</a>
-            <a href="./librerias.html">LIBRERIAS</a>
-            <a href="./hablemos.html">HABLEMOS</a>
-            <a href="./index.html">INICIO</a>
-          </nav>
+          <a href="./librerias.html">LIBRERIAS</a>
+          <a href="./hablemos.html">HABLEMOS</a>
+          <a href="./registro.html">LOGIN/SIGNIN</a>
+        </nav>
+      </div>
+    </header>
+    <form action="">
+      <section class="registro">
+        <h4>Ingresa tus datos</h4>
+
+        <input
+          class="control"
+          type="text"
+          name="nombres"
+          id="nombres"
+          placeholder="ingrese su usuario o email"
+        /><br />
+        <input
+          class="control"
+          type="password"
+          name="password"
+          id="password"
+          placeholder="ingrese su contraseña"
+        /><br />
+
+        <input class="boton" type="submit" value="Iniciar sesion" />
+
+        <p><a href="./crearcuenta.html">No tengo cuenta</a></p>
+      </section>
+    </form>
+
+    <footer>
+      <div class="piePagina">
+        <div class="redes">
+          <a href="http://www.instagram.com/sittheproducer/"
+            ><img src="./img/instagram.svg" alt="" width="35px"
+          /></a>
+          <a href="http://www.facebook.com/sittheproducer/"
+            ><img src="./img/facebook.svg" alt="" width="35px"
+          /></a>
+          <a href="http://www.youtube.com/sittheproducer/"
+            ><img src="./img/youtube.svg" alt="" width="35px"
+          /></a>
         </div>
-      </header>
-      <form action="">
-        <section class="registro">
-            <h4>Ingresa tus datos</h4>
-    
-            <input class="control" type="text" name="nombres" id="nombres" placeholder="ingrese su usuario o email"><br>
-            <input class="control" type="password" name="password" id="password" placeholder="ingrese su contraseña"><br>
-            
-            <input class="boton" type="submit" value="Iniciar sesion">
-    
-            <p><a href="./crearcuenta.html">No tengo cuenta</a></p>
-        </section>
-        
-        </form>
-
-        <footer>
-          <div class="piePagina">
-            <div class="redes">
-              <a href="http://www.instagram.com/sittheproducer/"
-                ><img src="./img/instagram.svg" alt="" width="35px"
-              /></a>
-              <a href="http://www.facebook.com/sittheproducer/"
-                ><img src="./img/facebook.svg" alt="" width="35px"
-              /></a>
-              <a href="http://www.youtube.com/sittheproducer/"
-                ><img src="./img/youtube.svg" alt="" width="35px"
-              /></a>
-            </div>
-            <h5 class="footer">TODOS LOS DERECHOS RESERVADOS</h5>
-          </div>
-        </footer>
-
-
-
-
-</body>
+        <h5 class="footer">TODOS LOS DERECHOS RESERVADOS</h5>
+      </div>
+    </footer>
+  </body>
 </html>

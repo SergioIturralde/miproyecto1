@@ -1,6 +1,8 @@
 * {
   margin: 0;
   padding: 0;
+  text-decoration: none;
+  list-style: none;
   box-sizing: border-box;
 }
 
@@ -24,7 +26,7 @@ body {
 }
 .encabezado a {
   color: white;
-  font-size: 20px;
+  font-size: 15px;
   padding-right: 30px;
   text-decoration: none;
 }
@@ -288,7 +290,7 @@ body {
   .encabezado h1{
     font-size: 40px;
   } .encabezado a{
-    font-size: 20px;
+    font-size: 15px;
   }
   .logo{
     width: 90px;
